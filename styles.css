@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(238, 246, 255);
+}
+
+.start{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 20vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(255, 55, 40, 0.91);
+    color: white;
+    font-family: "Sitka Display";
+    font-size: 10vw;
+    border-style: none;
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.6);
+
+}
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.d1 {
+    width: 44vw;
+    height: 44vw;
+    background: rgba(255, 61, 53, 0.37);
+    border-radius: 50%;
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+
+.title {
+    font-size: 5.4vw;
+}
+
+.title .title-part {
+    font-weight: 600;
+    font-family: "Fredoka One", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #fff6f9;
+    text-align: center;
+}
+
+.title .title-part.line-1 {
+    text-shadow: #ff6239 1px 1px, #ff6339 2px 2px, #ff643a 3px 3px, #ff663a 4px 4px, #ff673b 5px 5px, #ff683c 6px 6px, #ff693c 7px 7px, #ff6a3d 8px 8px, #ff6b3d 9px 9px, #ff6c3e 10px 10px, #ff6e3f 11px 11px, #ff6f3f 12px 12px, #ff7040 13px 13px, #ff7140 14px 14px, #ff7241 15px 15px, #ff7342 16px 16px, #ff7442 17px 17px, #ff7643 18px 18px, #ff7743 19px 19px, #ff7844 20px 20px, #ff7945 21px 21px, #ff7a45 22px 22px, #ff7b46 23px 23px, #ff7c46 24px 24px, #ff7e47 25px 25px, #ff7f48 26px 26px, #ff8048 27px 27px;
+}
+
+.title .title-part.line-2 {
+    text-shadow: #ffb502 1px 1px, #ffb604 2px 2px, #ffb706 3px 3px, #ffb809 4px 4px, #ffb80b 5px 5px, #ffb90d 6px 6px, #ffba0f 7px 7px, #ffbb11 8px 8px, #ffbc13 9px 9px, #ffbd15 10px 10px, #ffbe17 11px 11px, #ffbf1a 12px 12px, #ffc01c 13px 13px, #ffc11e 14px 14px, #ffc220 15px 15px, #ffc222 16px 16px, #ffc324 17px 17px, #ffc426 18px 18px, #ffc529 19px 19px, #ffc62b 20px 20px, #ffc72d 21px 21px, #ffc82f 22px 22px, #ffc931 23px 23px, #ffca33 24px 24px, #ffcb35 25px 25px, #ffcb37 26px 26px, #ffcc3a 27px 27px;
+}
+
+.title .title-part.line-3 {
+    text-shadow: #03a488 1px 1px, #05a488 2px 2px, #08a588 3px 3px, #0aa688 4px 4px, #0da788 5px 5px, #0fa788 6px 6px, #12a887 7px 7px, #14a987 8px 8px, #17a987 9px 9px, #19aa87 10px 10px, #1cab87 11px 11px, #1fac87 12px 12px, #21ac87 13px 13px, #24ad87 14px 14px, #26ae87 15px 15px, #29ae87 16px 16px, #2baf87 17px 17px, #2eb087 18px 18px, #30b086 19px 19px, #33b186 20px 20px, #36b286 21px 21px, #38b386 22px 22px, #3bb386 23px 23px, #3db486 24px 24px, #40b586 25px 25px, #42b586 26px 26px, #45b686 27px 27px;
+}
+
+.title .title-part.line-4 {
+    text-shadow: #035bb2 1px 1px, #055db2 2px 2px, #085eb1 3px 3px, #0a60b1 4px 4px, #0d61b0 5px 5px, #0f63b0 6px 6px, #1264af 7px 7px, #1466af 8px 8px, #1767ae 9px 9px, #1968ae 10px 10px, #1c6aad 11px 11px, #1f6bad 12px 12px, #216dac 13px 13px, #246eac 14px 14px, #2670ab 15px 15px, #2971ab 16px 16px, #2b72aa 17px 17px, #2e74aa 18px 18px, #3075a9 19px 19px, #3377a9 20px 20px, #3678a8 21px 21px, #387aa8 22px 22px, #3b7ba7 23px 23px, #3d7da7 24px 24px, #407ea6 25px 25px, #427fa6 26px 26px, #4581a5 27px 27px;
+}
+
+.title .title-part.line-5 {
+    text-shadow: #8202fe 1px 1px, #8405fc 2px 2px, #8507fb 3px 3px, #8609fa 4px 4px, #870cf9 5px 5px, #890ef7 6px 6px, #8a10f6 7px 7px, #8b13f5 8px 8px, #8c15f4 9px 9px, #8e17f2 10px 10px, #8f1af1 11px 11px, #901cf0 12px 12px, #911eee 13px 13px, #9321ed 14px 14px, #9423ec 15px 15px, #9525eb 16px 16px, #9628e9 17px 17px, #982ae8 18px 18px, #992ce7 19px 19px, #9a2fe6 20px 20px, #9b31e4 21px 21px, #9d33e3 22px 22px, #9e36e2 23px 23px, #9f38e1 24px 24px, #a13bdf 25px 25px;
+}
+
+
+#info{
+    background-color: white;
+    font-size: 24px;
+}
+
+#q{
+    margin: -10px -100px -15px -10px;
+    width: 101%;
+}
+
+#window{
+    width: 1050px;
+    height: 390px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 10px 0 0 30px;
+    font-size: 32px;
+    font-family: Technic;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.gallery {
+    margin: 0 auto 0;
+    width: 610px;
+}
+.gallery a {
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    width: 200px;
+    user-select: none;
+}
+.gallery a img {
+    border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 1.0s ease;
+    box-shadow: 2px 2px 4px #444;
+}
+
+.gallery a:nth-child(1) img {
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.gallery a:nth-child(2) img {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.gallery a:nth-child(3) img {
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.gallery a:focus img {
+    cursor: default;
+    height: 250%;
+    left: -150px;
+    top: -100px;
+    position: absolute;
+    width: 250%;
+    z-index: 25;
+    transition: all 1.0s ease;
+    transform: rotate(0deg);
+}
+
+img{
+    width: 260px;
+    height: 300px;
+    float: right;
+    padding-right: 10px;
+
+}
+#card{
+    width: 1050px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 10px 0 0 30px;
+    font-size: 32px;
+    font-family: Technic;
+    text-align: left;
+    line-height: 1.2;
+}
