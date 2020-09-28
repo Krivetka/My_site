@@ -84,6 +84,7 @@ function button() {
                                     "card",
                                     [
                                         "My E-mail: dfyreybr@gmail.com\n",
+                                        "+375(29)5132302\n",
                                         "I would like to continue working \n",
                                         "with you after the course, and the course \n",
                                         "itself will be useful as learning something new.  \n"
